@@ -115,7 +115,7 @@
         <!-- Copyright -->
         <div class="text-center p-3 text-white" style="background-color: rgba(0, 0, 0, 0.2);">
             © 2024 Copyright:
-            <a href="https://fecomit.com" target="_blank" style="color: #F5F5DC;">fecomit.com</a>
+            <a href="https://fecomit.com" target="_blank" style="color: #F5F5DC;">Fecomit.com</a>
         </div>
         <!-- Copyright -->
     </footer>
@@ -129,19 +129,7 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         scale: 1.03;
         transition: 0.3s;
-        transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
         transform: translate(-8px, -8px);
-        /* animation: rotating 1s ease-in-out; */
-    }
-
-    @keyframes rotating {
-        from {
-            transform: perspective(1000px) rotateY(0deg);
-        }
-
-        to {
-            transform: perspective(1000px) rotateY(360deg);
-        }
     }
 
     [src*='img/mouloud.jpg']:hover {
@@ -161,31 +149,22 @@
     li.list-group-item:hover {
         background-color: orange;
         color: white;
-        animation: grow-shrink 2s ease-in-out infinite alternate;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        scale: 1.03;
+        transition: 0.3s;
+        transform: translate(-8px, -8px);
     }
 
     div.mt-3.rounded.row:hover {
         background-color: orange;
         color: white;
-        animation: grow-shrink 2s ease-in-out infinite alternate;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        scale: 1.03;
+        transition: 0.3s;
+        transform: translate(-8px, -8px);
     }
 
     html {
         scroll-behavior: smooth;
-    }
-
-    @keyframes grow-shrink {
-        0% {
-            scale: 1;
-        }
-
-        50% {
-            scale: 1.1;
-        }
-
-        100% {
-            scale: 1;
-        }
-
     }
 </style>
