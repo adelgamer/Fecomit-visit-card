@@ -34,7 +34,7 @@
 
         <!-- Contact informations -->
         <div id="contact-card" class="row mt-4 justify-content-around mx-0 py-0 rounded px-3"
-            style="background-color: orange;">
+            style="background-color: #dbd7d7;">
             <div class="col-12 rounded py-3 ">
                 <div class="row">
                     <div class="col-6 fw-bold"><i class="bi bi-sim"></i> Mobile</div>
@@ -87,9 +87,11 @@
 
         <ul class="list-group list-group-flush">
             <li class="list-group-item rounded"><i class="bi bi-pie-chart"></i> Audit des systèmes d'information</li>
-            <li class="list-group-item rounded"><i class="bi bi-code-slash"></i> Conception et Développement des logiciels de gestion</li>
+            <li class="list-group-item rounded"><i class="bi bi-code-slash"></i> Conception et Développement des
+                logiciels de gestion</li>
             <li class="list-group-item rounded"><i class="bi bi-plug"></i> Intégration des solutions Informatiques</li>
-            <li class="list-group-item rounded"><i class="bi bi-browser-chrome"></i> Développement des sites et plateformes Web</li>
+            <li class="list-group-item rounded"><i class="bi bi-browser-chrome"></i> Développement des sites et
+                plateformes Web</li>
             <li class="list-group-item rounded"><i class="bi bi-award"></i> Formation et Coaching</li>
             <li class="list-group-item rounded"><i class="bi bi-shield-check"></i> Réseaux et sécurité</li>
             <li class="list-group-item rounded"><i class="bi bi-pc"></i> Matériels Informatique</li>
@@ -107,7 +109,7 @@
     </div>
 
     <!-- Footer -->
-    <footer class="text-center text-lg-start mt-5" style="background-color: orange;">
+    <footer class="text-center text-lg-start mt-5" style="background-color: #dbd7d7;">
         <div class="container d-flex justify-content-center py-5">
             <img class="img-fluid mx-auto d-block w-50" src="img/logo.png" alt="Fecomit logo">
         </div>
@@ -125,17 +127,6 @@
 </html>
 
 <style>
-    #contact-card:hover {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        scale: 1.03;
-        transition: 0.3s;
-        transform: translate(-8px, -8px);
-        background-image: linear-gradient(to left, orange, rgb(255, 190, 70));
-    }
-
-    footer:hover {
-        background-image: linear-gradient(to left, orange, rgb(255, 190, 70));
-    }
 
     [src*='img/mouloud.jpg']:hover {
         animation: hoverAnimation 1s ease-in-out infinite alternate;
@@ -143,7 +134,7 @@
 
     @keyframes hoverAnimation {
         from {
-            outline: 10px solid orange;
+            outline: 10px solid rgb(223, 57, 57);
         }
 
         to {
@@ -151,25 +142,14 @@
         }
     }
 
-    li.list-group-item:hover {
-        background-image: linear-gradient(to left, orange, rgb(255, 190, 70));
+    li.list-group-item:hover,
+    div.mt-3.rounded.row:hover,
+    #contact-card:hover {
+        background-image: linear-gradient(to left, #dbd7d7, rgb(223, 57, 57));
         color: white;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         scale: 1.03;
         transition: 0.3s;
         transform: translate(-8px, -8px);
-    }
-
-    div.mt-3.rounded.row:hover {
-        background-image: linear-gradient(to left, orange, rgb(255, 190, 70));
-        color: white;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        scale: 1.03;
-        transition: 0.3s;
-        transform: translate(-8px, -8px);
-    }
-
-    html {
-        scroll-behavior: smooth;
     }
 </style>
